@@ -18,7 +18,7 @@ struct Graph *createGraph(int V, int E) {
     return graph;
 }
 void FinalSolution(int dist[], int n) {
-    printf("\nVertex\tDistance from Source Vertex - \n");
+    printf("\nVertex\tDistance from Source  - \n");
     int i;
     for (i = 0; i < n; ++i) {
         printf("%d \t\t %d\n", i, dist[i]);
