@@ -15,7 +15,7 @@
         ptr=(struct node *)malloc(sizeof(struct node));
 
         int num;
-        printf("enter element to insert in linked list:\n");
+        printf("enter number to insert in linked list:\n");
         scanf("%d",&num);
         ptr->data=num;
         ptr->next=NULL;
@@ -35,7 +35,7 @@
        ptr=(struct node *)malloc(sizeof(struct node));
 
        int num;
-        printf("enter element to insert in linked list:\n");
+        printf("enter number to insert in linked list:\n");
         scanf("%d",&num);
         ptr->data=num;
         ptr->next=NULL;
@@ -53,7 +53,7 @@
 
    void insertnodeA(struct node *head){     // insert in singly linkedlist at the position starting index is 0 
        int loc;
-       printf("enter loc where to insert");
+       printf("enter location where to insert");
        scanf("%d",&loc);
 
        if(loc>0){
@@ -62,7 +62,7 @@
        ptr=(struct node *)malloc(sizeof(struct node));
 
        int num ,i;
-       printf("enter element to insert in linked list" );
+       printf("enter number to insert in linked list" );
        scanf("%d",&num);
      
        ptr->data=num;
@@ -247,4 +247,3 @@ int menu(){
             return 0;
  
   }
- 
